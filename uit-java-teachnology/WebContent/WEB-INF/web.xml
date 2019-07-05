@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>uit-java-teachnology</display-name>
+  <error-page>
+    <error-code>400</error-code>
+    <location>/templates/400.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/templates/404.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/templates/500.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>403</error-code>
+    <location>/templates/403.jsp</location>
+  </error-page>
+  <context-param>
+    <param-name>log4j-config</param-name>
+    <param-value>WEB-INF/log4j.xml</param-value>
+  </context-param>
+  <session-config>
+    <session-timeout>1440</session-timeout>
+  </session-config>
+</web-app>

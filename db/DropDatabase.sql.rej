@@ -1,0 +1,5 @@
+diff a/db/DropDatabase.sql b/db/DropDatabase.sql	(rejected hunks)
+@@ -0 +0 @@
+-DROP DATABASE java_uit;
+\ No newline at end of file
++CREATE VIEW `new_view` AS

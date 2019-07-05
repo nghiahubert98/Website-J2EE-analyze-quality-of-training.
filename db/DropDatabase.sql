@@ -1,0 +1,1 @@
+DROP DATABASE java_uit;
